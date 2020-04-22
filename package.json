@@ -1,0 +1,27 @@
+{
+  "name": "catch-mind",
+  "version": "1.0.0",
+  "description": "Cloning Catch Mind with socketIO and nodeJS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xf6a4or7/Catch-Mind.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xf6a4or7/Catch-Mind/issues"
+  },
+  "homepage": "https://github.com/xf6a4or7/Catch-Mind#readme",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node src/server"
+  }
+}
